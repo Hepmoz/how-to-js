@@ -8,7 +8,8 @@ const hbs = require('hbs');
 
 const indexRouter = require('./routes/index');
 // const fibonacci   = require('./routes/fibonacci');
-const fibonacci = require('./routes/fibonacci-async1');
+// const fibonacci = require('./routes/fibonacci-async1');
+const fibonacci = require('./routes/fibonacci-rest');
 
 const app = express();
 
